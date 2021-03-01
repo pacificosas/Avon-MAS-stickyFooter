@@ -20,6 +20,8 @@ export function css(assetsRoot):string{
             margin-inline-start: 0;
             margin-inline-end: 0;
             padding-inline-start: 0;
+            background:white;
+            z-index:21474836536;
         }
         .st-av li{
             list-style: none;  
