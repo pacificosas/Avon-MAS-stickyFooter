@@ -1,0 +1,18 @@
+{
+  "name": "avon-ruleta",
+  "version": "1.0.0",
+  "description": "Script de cliente para proyecto de Ruleta Avon",
+  "main": "dist/ruleta.js",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js",
+    "build": "webpack "
+  },
+  "author": "RAT",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^8.0.14",
+    "webpack": "^5.18.0",
+    "typescript": "^4.1.3",
+    "webpack-cli": "^4.4.0"
+  }
+}
