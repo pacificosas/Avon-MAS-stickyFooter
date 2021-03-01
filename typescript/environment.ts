@@ -1,7 +1,7 @@
 export const environment={
     production:true,
     
-    staticsUrl:"http://127.0.0.1:5500/statics/",
+    staticsUrl:"https://cdn.jsdelivr.net/gh/pacificosas/Avon-MAS-stickyFooter@1/assets/",
   
     get currentCountry(){
         switch (window.location.hostname) {
