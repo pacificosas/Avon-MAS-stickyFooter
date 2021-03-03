@@ -4,7 +4,7 @@
   "description": "Script de cliente para proyecto de Ruleta Avon",
   "main": "dist/ruleta.js",
   "scripts": {
-    "dev": "webpack --config webpack.config.js",
+    "dev": "webpack --config webpack.config.js --watch",
     "build": "webpack "
   },
   "author": "RAT",

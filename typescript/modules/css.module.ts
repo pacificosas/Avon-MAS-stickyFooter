@@ -12,8 +12,10 @@ export function css(assetsRoot):string{
             position: fixed;
             bottom: 0;
             width: 100%;
-            border-top: 1px solid #888;
-            padding: 8px 0;
+            border-top: 2px solid #cececea3;
+            padding: 0 0;
+            padding-bottom:1rem;
+            padding-top:0.3rem;
             margin: 0;
             margin-block-start: 0;
             margin-block-end: 0;
@@ -29,7 +31,6 @@ export function css(assetsRoot):string{
             display: block;
             width: 20%;
             margin: 0;
-            border-right: 1px solid #888;
         }
         .st-av li:last-child{
             border-right: none;
@@ -38,10 +39,7 @@ export function css(assetsRoot):string{
             text-decoration: none;
             color: #333;
         }
-        .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
-            height: 50px;
-            display: block;
-        }
+
         .btn-1{
             background: url(${assetsRoot}sticky-icon-home.jpg) no-repeat center;
         }
@@ -56,6 +54,15 @@ export function css(assetsRoot):string{
         }
         .btn-5{
             background: url(${assetsRoot}sticky-icon-chat.jpg) no-repeat center;
+        }
+
+        .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+            height: 50px;
+            display: block;
+            width:50%;
+            height:3rem;
+            background-size:contain;
+            margin:auto;
         }
     </style>
     `
