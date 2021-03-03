@@ -30,7 +30,7 @@ export function html(content:HtmlContent){
       </a>
     </li>
     <li>
-      <a href="${content.chatLink}">
+      <a href="${content.chatLink}" target="_blank">
         <div class="icon btn-5"></div>
         <div class="name" data-text="Chat virtual">Chat virtual</div>
       </a>
