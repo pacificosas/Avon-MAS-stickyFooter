@@ -44,7 +44,7 @@ export function css(assetsRoot):string{
             background: url(${assetsRoot}sticky-icon-home.jpg) no-repeat center;
         }
         .btn-2{
-            background: url(${assetsRoot}sticky-icon-cart.jpg) no-repeat center;
+            background: url(${assetsRoot}sticky-icon-regalos.jpg) no-repeat center;
         }
         .btn-3{
             background: url(${assetsRoot}sticky-icon-oferta.jpg) no-repeat center;

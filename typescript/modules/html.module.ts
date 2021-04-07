@@ -12,9 +12,9 @@ export function html(content:HtmlContent){
       </a>
     </li>
     <li>
-      <a href="/cart/">
+      <a href="${content.regalosLink}">
         <div class="icon btn-2"></div>
-        <div class="name" data-text="Mi carrito">Mi carrito</div>
+        <div class="name" data-text="Mi carrito">Regalos</div>
       </a>
     </li>
     <li>
