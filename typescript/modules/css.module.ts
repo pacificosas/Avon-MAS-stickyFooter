@@ -8,7 +8,9 @@ export function css(assetsRoot):string{
             font-size: 1em;
             }
         .st-av{
-            display: flex;
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -29,7 +31,6 @@ export function css(assetsRoot):string{
             list-style: none;  
             text-align: center;
             display: block;
-            width: 20%;
             margin: 0;
         }
         .st-av li:last-child{

@@ -24,12 +24,6 @@ export function html(content:HtmlContent){
       </a>
     </li>
     <li>
-      <a href="/customer/my-profile/">
-        <div class="icon btn-4"></div>
-        <div class="name" data-text="Mi cuenta">Mi cuenta</div>
-      </a>
-    </li>
-    <li>
       <a href="${content.chatLink}" target="_blank">
         <div class="icon btn-5"></div>
         <div class="name" data-text="Chat virtual">Chat virtual</div>
