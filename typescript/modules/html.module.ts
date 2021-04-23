@@ -17,12 +17,21 @@ export function html(content:HtmlContent){
         <div class="name" data-text="Mi carrito">Regalos</div>
       </a>
     </li>
+
     <li>
       <a href="/special-offers/">
         <div class="icon btn-3"></div>
         <div class="name" data-text="Ofertas">Ofertas</div>
       </a>
     </li>
+
+    <li>
+      <a href="${content.saleLink}">
+        <div class="icon btn-sale"></div>
+        <div class="name" data-text="Sale">Sale</div>
+      </a>
+    </li>
+
     <li>
       <a href="${content.chatLink}" target="_blank">
         <div class="icon btn-5"></div>

@@ -47,8 +47,12 @@ export function css(assetsRoot):string{
         .btn-2{
             background: url(${assetsRoot}sticky-icon-regalos.jpg) no-repeat center;
         }
+
         .btn-3{
-            background: url(${assetsRoot}sticky-icon-oferta.jpg) no-repeat center;
+            background: url(${assetsRoot}sticky-icon-offer.jpg) no-repeat center;
+        }
+        .btn-sale{
+            background: url(${assetsRoot}sticky-icon-sale.jpg) no-repeat center;
         }
         .btn-4{
             background: url(${assetsRoot}sticky-icon-cuenta.jpg) no-repeat center;
@@ -57,7 +61,7 @@ export function css(assetsRoot):string{
             background: url(${assetsRoot}sticky-icon-chat.jpg) no-repeat center;
         }
 
-        .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+        [class*=btn-]{
             height: 50px;
             display: block;
             width:50%;
