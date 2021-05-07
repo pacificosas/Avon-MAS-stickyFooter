@@ -25,7 +25,7 @@ export function css(assetsRoot):string{
             margin-inline-end: 0;
             padding-inline-start: 0;
             background:white;
-            z-index:21474836536;
+            z-index:20000000;
         }
         .st-av li{
             list-style: none;  
