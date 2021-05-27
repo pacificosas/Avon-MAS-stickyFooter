@@ -41,27 +41,27 @@ export function css(assetsRoot):string{
             color: #333;
         }
 
-        .btn-1{
+        .st-av .btn-1{
             background: url(${assetsRoot}sticky-icon-home.jpg) no-repeat center;
         }
-        .btn-2{
+        .st-av .btn-2{
             background: url(${assetsRoot}sticky-icon-regalos.jpg) no-repeat center;
         }
 
-        .btn-3{
+        .st-av .btn-3{
             background: url(${assetsRoot}sticky-icon-offer.jpg) no-repeat center;
         }
-        .btn-sale{
+        .st-av .btn-sale{
             background: url(${assetsRoot}sticky-icon-sale.jpg) no-repeat center;
         }
-        .btn-4{
+        .st-av .btn-4{
             background: url(${assetsRoot}sticky-icon-cuenta.jpg) no-repeat center;
         }
-        .btn-5{
+        .st-av .btn-5{
             background: url(${assetsRoot}sticky-icon-chat.jpg) no-repeat center;
         }
 
-        [class*=btn-]{
+        .st-av [class*=btn-]{
             height: 50px;
             display: block;
             width:50%;
